@@ -1,0 +1,82 @@
+:root {
+  --height-width: 500px;
+  --font-size-high-value: 35px;
+  --font-size-middle-value: 40px;
+  --cell-background-white: #f9f6f2;
+}
+.App {
+  text-align: center;
+  background-color: rgb(250, 248, 239);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+table {
+  width: var(--height-width);
+  height: var(--height-width);
+  background: #bbada0;
+  border-radius: 6px;
+  border-spacing: 15px;
+}
+table td {
+  background: rgba(238, 228, 218, 0.35);
+}
+.cell {
+  border-radius: 3px;
+  font-weight: bold;
+  z-index: 10;
+  font-size: 55px;
+  width: 106.25px;
+  height: 106.25px;
+}
+.cell-2 {
+  background: #eee4da;
+  color: rgb(119, 110, 101);
+}
+.cell-4 {
+  background: #ede0c8;
+  color: rgb(119, 110, 101);
+}
+.cell-8 {
+  color: var(--cell-background-white);
+  background: #f2b179;
+}
+.cell-16 {
+  color: var(--cell-background-white);
+  background: #f59563;
+}
+.cell-32 {
+  color: var(--cell-background-white);
+  background: #f67c5f;
+}
+.cell-64 {
+  color: var(--cell-background-white);
+  background: #f65e3b;
+}
+.cell-128 {
+  color: var(--cell-background-white);
+  font-size: var(--font-size-middle-value);
+  background: #edcf72;
+}
+.cell-256 {
+  color: var(--cell-background-white);
+  font-size: var(--font-size-middle-value);
+  background: #edcc61;
+}
+.cell-512 {
+  color: var(--cell-background-white);
+  font-size: var(--font-size-middle-value);
+  background: #edc850;
+}
+.cell-1024 {
+  color: var(--cell-background-white);
+  font-size: var(--font-size-high-value);
+  background: #edc53f;
+}
+.cell-2048 {
+  color: var(--cell-background-white);
+  font-size: var(--font-size-high-value);
+  background: #edc22e;
+}
